@@ -2,27 +2,80 @@
 Changelog for package sros2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.10.9 (2026-02-16)
+0.16.4 (2026-02-16)
 -------------------
-* python3-pytest-timeout is missing for test dependency. (`#377 <https://github.com/ros2/sros2/issues/377>`_) (`#380 <https://github.com/ros2/sros2/issues/380>`_)
-* Contributors: mergify[bot]
+* python3-pytest-timeout is missing for test dependency. (`#377 <https://github.com/ros2/sros2/issues/377>`_)
+* Contributors: Tomoya Fujita
 
-0.10.8 (2026-01-12)
+0.16.3 (2026-01-12)
 -------------------
-* fix setuptools deprecations (`#357 <https://github.com/ros2/sros2/issues/357>`_) (`#365 <https://github.com/ros2/sros2/issues/365>`_)
-* Contributors: mergify[bot]
+* Clean up isolated ros2 daemon process for tests. (`#375 <https://github.com/ros2/sros2/issues/375>`_)
+* Remove importlib (`#368 <https://github.com/ros2/sros2/issues/368>`_)
+* Contributors: Michael Carlstrom, Tomoya Fujita
 
-0.10.7 (2025-07-16)
+0.16.2 (2025-07-29)
 -------------------
-* suppress multi-threaded warnings. (`#346 <https://github.com/ros2/sros2/issues/346>`_) (`#351 <https://github.com/ros2/sros2/issues/351>`_)
-* Contributors: mergify[bot]
+* Timezone aware datetimes + remove hack from `#209 <https://github.com/ros2/sros2/issues/209>`_ (`#300 <https://github.com/ros2/sros2/issues/300>`_)
+* fix setuptools deprecations (`#357 <https://github.com/ros2/sros2/issues/357>`_)
+* Use rmw_test_fixture to isolate ros2cli tests (`#356 <https://github.com/ros2/sros2/issues/356>`_)
+* Contributors: Mikael Arguedas, Scott K Logan, mosfet80
 
-0.10.6 (2025-03-25)
+0.16.1 (2025-07-01)
 -------------------
-* fix github-workflow mypy error. (`#336 <https://github.com/ros2/sros2/issues/336>`_) (`#338 <https://github.com/ros2/sros2/issues/338>`_)
-* Contributors: mergify[bot]
+* update utilities to pass instance not class of ec.SECP256R1 (`#352 <https://github.com/ros2/sros2/issues/352>`_)
+* suppress multi-threaded warnings. (`#346 <https://github.com/ros2/sros2/issues/346>`_)
+* Contributors: Tomoya Fujita, cdisco
 
-0.10.5 (2024-05-15)
+0.16.0 (2025-04-25)
+-------------------
+
+0.15.2 (2025-04-25)
+-------------------
+* Switch to get_rmw_additional_env (`#339 <https://github.com/ros2/sros2/issues/339>`_)
+* Fix github-workflow mypy error (`#336 <https://github.com/ros2/sros2/issues/336>`_)
+* Contributors: Tomoya Fujita, yadunund
+
+0.15.1 (2024-07-29)
+-------------------
+* Give more time to generate policies in tests (`#323 <https://github.com/ros2/sros2/issues/323>`_)
+* Switch to context manager for rclpy tests. (`#322 <https://github.com/ros2/sros2/issues/322>`_)
+* Contributors: Alejandro Hernández Cordero, Chris Lalancette
+
+0.15.0 (2024-06-17)
+-------------------
+* [FIX] remove dangerous mutable default arguments in generate_artifacts (`#318 <https://github.com/ros2/sros2/issues/318>`_)
+* Fix sros2 tests on Windows Debug. (`#317 <https://github.com/ros2/sros2/issues/317>`_)
+* [TESTS] Update tests and add test for generate_artifacts (`#311 <https://github.com/ros2/sros2/issues/311>`_)
+* remove deprecated create_key and list_keys verbs (`#302 <https://github.com/ros2/sros2/issues/302>`_)
+* Fix linux tutorial: cloning example policies and set of default policies for a node (`#295 <https://github.com/ros2/sros2/issues/295>`_)
+* Contributors: Chris Lalancette, Mikael Arguedas
+
+0.14.0 (2024-04-29)
+-------------------
+
+0.13.0 (2024-02-07)
+-------------------
+* Use modern PKCS7 to sign the certificate bytes. (`#290 <https://github.com/ros2/sros2/issues/290>`_)
+* Fix a number of warnings on Ubuntu 24.04. (`#289 <https://github.com/ros2/sros2/issues/289>`_)
+* Contributors: Chris Lalancette
+
+0.12.1 (2023-05-19)
+-------------------
+* Fix SSH commands in SROS2_Linux.md (`#286 <https://github.com/ros2/sros2/issues/286>`_)
+* Contributors: Boris Boutillier
+
+0.12.0 (2023-04-28)
+-------------------
+
+0.11.2 (2023-04-11)
+-------------------
+* Make type of get_package_share_directory apparent for sphinx (`#284 <https://github.com/ros2/sros2/issues/284>`_)
+* Contributors: Yadu
+
+0.11.1 (2022-09-13)
+-------------------
+
+0.11.0 (2022-05-04)
 -------------------
 
 0.10.4 (2022-04-08)
