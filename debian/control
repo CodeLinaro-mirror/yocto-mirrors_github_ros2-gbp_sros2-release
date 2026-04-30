@@ -1,0 +1,12 @@
+Source: ros-lyrical-sros2-cmake
+Section: misc
+Priority: optional
+Maintainer: ROS Security Working Group <ros-security@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-test, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/sros2_cmake/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-sros2-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros2cli, ros-lyrical-sros2, ros-lyrical-ros-workspace
+Description: CMake macros to configure security
